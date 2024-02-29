@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+</head>
+
+<body>
+
+  <h1>GIPHY PARTY</h1>
+
+<form>
+  <input type = "text" id = "search" name = "search" placeholder = "Enter a search term"/>
+  <input type = "submit" class = "submitBtn" value = "Search"/>
+  <button id = "remove" class = "rmBtn">Remove Images</button>
+</form>
+
+<div id="showGif"></div>
+
+<style>
+  body{
+   background-color: rgba(0, 0, 0, 0.849);
+   position: relative;
+   align-content: center;
+  }
+  h1{
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: bolder;
+     padding: 25px;
+     font-size: 400%;
+     background-color: rgba(255, 166, 0, 0.753);
+     color: white;
+   }
+   #search{
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   }
+   .submitBtn, #remove{
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0, 0.753);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+   }
+   
+ </style>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
